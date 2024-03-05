@@ -15,15 +15,15 @@ Steps:
 ## Initialize a new Flask application:
 
 4. Create a new Python file named app.py.
-    Import Flask and create a new Flask app instance.
-    Define a route for the home page ("/") where users can input the test string and regex.
-    Render an HTML template containing a form with fields for the test string and regex, and a submit button.
-5. Create the HTML template:
+      * Import Flask and create a new Flask app instance.
+      * Define a route for the home page ("/") where users can input the test string and regex.
+      * Render an HTML template containing a form with fields for the test string and regex, and a submit button.
+6. Create the HTML template:
       Create a new directory named templates within your project directory.
       Inside the templates directory, create a new HTML file named home.html.
       Design the HTML form with input fields for the test string and regex, and a submit button.
    
-6.  Define a route to handle form submission:
+7.  Define a route to handle form submission:
       The home route ("/") in the app.py file will also handle form submission.
       It extracts the test string and regex submitted by the user from the form data.
       Use Python's re module to perform regex matching on the test string.
